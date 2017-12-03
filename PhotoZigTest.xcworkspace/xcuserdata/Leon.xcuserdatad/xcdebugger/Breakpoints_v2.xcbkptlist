@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotoZigTest/APIController.swift"
+            timestampString = "534031183.864544"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getImg(im:cell:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhotoZigTest.APIController.getImg(im: Swift.Optional&lt;Swift.String&gt;, cell: PhotoZigTest.PepBlastTableViewCell) -&gt; ()"
+                  moduleName = "PhotoZigTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Leon/Desktop/PhotozigTest/PhotoZigTest/PhotoZigTest/APIController.swift"
+                  timestampString = "533929759.901621"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1674">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;__ObjC.UIImage&gt;) -&gt; () in PhotoZigTest.APIController.getImg(im: Swift.Optional&lt;Swift.String&gt;, cell: PhotoZigTest.PepBlastTableViewCell) -&gt; ()"
+                  moduleName = "PhotoZigTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Leon/Desktop/PhotozigTest/PhotoZigTest/PhotoZigTest/APIController.swift"
+                  timestampString = "533929759.903637"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "175">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
