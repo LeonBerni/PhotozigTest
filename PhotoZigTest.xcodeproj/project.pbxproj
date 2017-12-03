@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3543E0FD1FD1AC1000D5270C /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3543E0FC1FD1AC1000D5270C /* APIController.swift */; };
 		356450F81FD0835E005E2E27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356450F71FD0835E005E2E27 /* AppDelegate.swift */; };
 		356450FA1FD0835E005E2E27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356450F91FD0835E005E2E27 /* ViewController.swift */; };
 		356450FD1FD0835E005E2E27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356450FB1FD0835E005E2E27 /* Main.storyboard */; };
 		356450FF1FD0835E005E2E27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 356450FE1FD0835E005E2E27 /* Assets.xcassets */; };
 		356451021FD0835E005E2E27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356451001FD0835E005E2E27 /* LaunchScreen.storyboard */; };
+		359133111FD1BFD90064AE2B /* PepBlastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359133101FD1BFD90064AE2B /* PepBlastTableViewCell.swift */; };
+		359133131FD30D9F0064AE2B /* PepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359133121FD30D9F0064AE2B /* PepModel.swift */; };
+		359133151FD4A49F0064AE2B /* PepDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359133141FD4A49F0064AE2B /* PepDetailViewController.swift */; };
+		A6743D307E9E1B2CA169572F /* Pods_PhotoZigTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705954771347541E35D38689 /* Pods_PhotoZigTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3543E0FC1FD1AC1000D5270C /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
 		356450F41FD0835E005E2E27 /* PhotoZigTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoZigTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		356450F71FD0835E005E2E27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		356450F91FD0835E005E2E27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,12 @@
 		356450FE1FD0835E005E2E27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		356451011FD0835E005E2E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		356451031FD0835E005E2E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		359133101FD1BFD90064AE2B /* PepBlastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepBlastTableViewCell.swift; sourceTree = "<group>"; };
+		359133121FD30D9F0064AE2B /* PepModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepModel.swift; sourceTree = "<group>"; };
+		359133141FD4A49F0064AE2B /* PepDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepDetailViewController.swift; sourceTree = "<group>"; };
+		705954771347541E35D38689 /* Pods_PhotoZigTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoZigTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FAA8504612622251F0990C /* Pods-PhotoZigTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoZigTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoZigTest/Pods-PhotoZigTest.release.xcconfig"; sourceTree = "<group>"; };
+		F49D10AAAC96FDA59364625B /* Pods-PhotoZigTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoZigTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoZigTest/Pods-PhotoZigTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6743D307E9E1B2CA169572F /* Pods_PhotoZigTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		189CADDE9B60FA0D2DE7F4D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				705954771347541E35D38689 /* Pods_PhotoZigTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26DC19E0F32D46C0D8A4AADC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F49D10AAAC96FDA59364625B /* Pods-PhotoZigTest.debug.xcconfig */,
+				D0FAA8504612622251F0990C /* Pods-PhotoZigTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		356450EB1FD0835E005E2E27 = {
 			isa = PBXGroup;
 			children = (
 				356450F61FD0835E005E2E27 /* PhotoZigTest */,
 				356450F51FD0835E005E2E27 /* Products */,
+				26DC19E0F32D46C0D8A4AADC /* Pods */,
+				189CADDE9B60FA0D2DE7F4D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +92,10 @@
 				356450FE1FD0835E005E2E27 /* Assets.xcassets */,
 				356451001FD0835E005E2E27 /* LaunchScreen.storyboard */,
 				356451031FD0835E005E2E27 /* Info.plist */,
+				3543E0FC1FD1AC1000D5270C /* APIController.swift */,
+				359133101FD1BFD90064AE2B /* PepBlastTableViewCell.swift */,
+				359133121FD30D9F0064AE2B /* PepModel.swift */,
+				359133141FD4A49F0064AE2B /* PepDetailViewController.swift */,
 			);
 			path = PhotoZigTest;
 			sourceTree = "<group>";
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 356451061FD0835E005E2E27 /* Build configuration list for PBXNativeTarget "PhotoZigTest" */;
 			buildPhases = (
+				64AAAED6AEEB21524946F4D9 /* [CP] Check Pods Manifest.lock */,
 				356450F01FD0835E005E2E27 /* Sources */,
 				356450F11FD0835E005E2E27 /* Frameworks */,
 				356450F21FD0835E005E2E27 /* Resources */,
+				DC2AEF1671EC0FE4C94E7B3A /* [CP] Embed Pods Frameworks */,
+				F40AA14445E87D795E570F86 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +170,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64AAAED6AEEB21524946F4D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoZigTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC2AEF1671EC0FE4C94E7B3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PhotoZigTest/Pods-PhotoZigTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoZigTest/Pods-PhotoZigTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F40AA14445E87D795E570F86 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoZigTest/Pods-PhotoZigTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		356450F01FD0835E005E2E27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				359133111FD1BFD90064AE2B /* PepBlastTableViewCell.swift in Sources */,
+				359133151FD4A49F0064AE2B /* PepDetailViewController.swift in Sources */,
 				356450FA1FD0835E005E2E27 /* ViewController.swift in Sources */,
 				356450F81FD0835E005E2E27 /* AppDelegate.swift in Sources */,
+				359133131FD30D9F0064AE2B /* PepModel.swift in Sources */,
+				3543E0FD1FD1AC1000D5270C /* APIController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +373,11 @@
 		};
 		356451071FD0835E005E2E27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F49D10AAAC96FDA59364625B /* Pods-PhotoZigTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BA896ETMQ;
 				INFOPLIST_FILE = PhotoZigTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Leon-Berni.PhotoZigTest";
@@ -286,9 +389,11 @@
 		};
 		356451081FD0835E005E2E27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FAA8504612622251F0990C /* Pods-PhotoZigTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BA896ETMQ;
 				INFOPLIST_FILE = PhotoZigTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Leon-Berni.PhotoZigTest";
