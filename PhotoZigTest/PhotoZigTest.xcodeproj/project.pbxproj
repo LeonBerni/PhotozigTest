@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3543E0FD1FD1AC1000D5270C /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3543E0FC1FD1AC1000D5270C /* APIController.swift */; };
+		356450F81FD0835E005E2E27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356450F71FD0835E005E2E27 /* AppDelegate.swift */; };
+		356450FA1FD0835E005E2E27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356450F91FD0835E005E2E27 /* ViewController.swift */; };
+		356450FD1FD0835E005E2E27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356450FB1FD0835E005E2E27 /* Main.storyboard */; };
+		356450FF1FD0835E005E2E27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 356450FE1FD0835E005E2E27 /* Assets.xcassets */; };
+		356451021FD0835E005E2E27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356451001FD0835E005E2E27 /* LaunchScreen.storyboard */; };
+		359133111FD1BFD90064AE2B /* PepBlastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359133101FD1BFD90064AE2B /* PepBlastTableViewCell.swift */; };
+		359133131FD30D9F0064AE2B /* PepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359133121FD30D9F0064AE2B /* PepModel.swift */; };
+		359133151FD4A49F0064AE2B /* PepDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359133141FD4A49F0064AE2B /* PepDetailViewController.swift */; };
+		A6743D307E9E1B2CA169572F /* Pods_PhotoZigTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705954771347541E35D38689 /* Pods_PhotoZigTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3543E0FC1FD1AC1000D5270C /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		356450F41FD0835E005E2E27 /* PhotoZigTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoZigTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		356450F71FD0835E005E2E27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		356450F91FD0835E005E2E27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		356450FC1FD0835E005E2E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		356450FE1FD0835E005E2E27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		356451011FD0835E005E2E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		356451031FD0835E005E2E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		359133101FD1BFD90064AE2B /* PepBlastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepBlastTableViewCell.swift; sourceTree = "<group>"; };
+		359133121FD30D9F0064AE2B /* PepModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepModel.swift; sourceTree = "<group>"; };
+		359133141FD4A49F0064AE2B /* PepDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepDetailViewController.swift; sourceTree = "<group>"; };
+		705954771347541E35D38689 /* Pods_PhotoZigTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoZigTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FAA8504612622251F0990C /* Pods-PhotoZigTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoZigTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoZigTest/Pods-PhotoZigTest.release.xcconfig"; sourceTree = "<group>"; };
+		F49D10AAAC96FDA59364625B /* Pods-PhotoZigTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoZigTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoZigTest/Pods-PhotoZigTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		356450F11FD0835E005E2E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6743D307E9E1B2CA169572F /* Pods_PhotoZigTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189CADDE9B60FA0D2DE7F4D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				705954771347541E35D38689 /* Pods_PhotoZigTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26DC19E0F32D46C0D8A4AADC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F49D10AAAC96FDA59364625B /* Pods-PhotoZigTest.debug.xcconfig */,
+				D0FAA8504612622251F0990C /* Pods-PhotoZigTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		356450EB1FD0835E005E2E27 = {
+			isa = PBXGroup;
+			children = (
+				356450F61FD0835E005E2E27 /* PhotoZigTest */,
+				356450F51FD0835E005E2E27 /* Products */,
+				26DC19E0F32D46C0D8A4AADC /* Pods */,
+				189CADDE9B60FA0D2DE7F4D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		356450F51FD0835E005E2E27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				356450F41FD0835E005E2E27 /* PhotoZigTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		356450F61FD0835E005E2E27 /* PhotoZigTest */ = {
+			isa = PBXGroup;
+			children = (
+				356450F71FD0835E005E2E27 /* AppDelegate.swift */,
+				356450F91FD0835E005E2E27 /* ViewController.swift */,
+				356450FB1FD0835E005E2E27 /* Main.storyboard */,
+				356450FE1FD0835E005E2E27 /* Assets.xcassets */,
+				356451001FD0835E005E2E27 /* LaunchScreen.storyboard */,
+				356451031FD0835E005E2E27 /* Info.plist */,
+				3543E0FC1FD1AC1000D5270C /* APIController.swift */,
+				359133101FD1BFD90064AE2B /* PepBlastTableViewCell.swift */,
+				359133121FD30D9F0064AE2B /* PepModel.swift */,
+				359133141FD4A49F0064AE2B /* PepDetailViewController.swift */,
+			);
+			path = PhotoZigTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		356450F31FD0835E005E2E27 /* PhotoZigTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 356451061FD0835E005E2E27 /* Build configuration list for PBXNativeTarget "PhotoZigTest" */;
+			buildPhases = (
+				64AAAED6AEEB21524946F4D9 /* [CP] Check Pods Manifest.lock */,
+				356450F01FD0835E005E2E27 /* Sources */,
+				356450F11FD0835E005E2E27 /* Frameworks */,
+				356450F21FD0835E005E2E27 /* Resources */,
+				DC2AEF1671EC0FE4C94E7B3A /* [CP] Embed Pods Frameworks */,
+				F40AA14445E87D795E570F86 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoZigTest;
+			productName = PhotoZigTest;
+			productReference = 356450F41FD0835E005E2E27 /* PhotoZigTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		356450EC1FD0835E005E2E27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Leon Berni";
+				TargetAttributes = {
+					356450F31FD0835E005E2E27 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 356450EF1FD0835E005E2E27 /* Build configuration list for PBXProject "PhotoZigTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 356450EB1FD0835E005E2E27;
+			productRefGroup = 356450F51FD0835E005E2E27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				356450F31FD0835E005E2E27 /* PhotoZigTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		356450F21FD0835E005E2E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356451021FD0835E005E2E27 /* LaunchScreen.storyboard in Resources */,
+				356450FF1FD0835E005E2E27 /* Assets.xcassets in Resources */,
+				356450FD1FD0835E005E2E27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64AAAED6AEEB21524946F4D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoZigTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC2AEF1671EC0FE4C94E7B3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PhotoZigTest/Pods-PhotoZigTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoZigTest/Pods-PhotoZigTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F40AA14445E87D795E570F86 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoZigTest/Pods-PhotoZigTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		356450F01FD0835E005E2E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359133111FD1BFD90064AE2B /* PepBlastTableViewCell.swift in Sources */,
+				359133151FD4A49F0064AE2B /* PepDetailViewController.swift in Sources */,
+				356450FA1FD0835E005E2E27 /* ViewController.swift in Sources */,
+				356450F81FD0835E005E2E27 /* AppDelegate.swift in Sources */,
+				359133131FD30D9F0064AE2B /* PepModel.swift in Sources */,
+				3543E0FD1FD1AC1000D5270C /* APIController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		356450FB1FD0835E005E2E27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				356450FC1FD0835E005E2E27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		356451001FD0835E005E2E27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				356451011FD0835E005E2E27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		356451041FD0835E005E2E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		356451051FD0835E005E2E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		356451071FD0835E005E2E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F49D10AAAC96FDA59364625B /* Pods-PhotoZigTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BA896ETMQ;
+				INFOPLIST_FILE = PhotoZigTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Leon-Berni.PhotoZigTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		356451081FD0835E005E2E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FAA8504612622251F0990C /* Pods-PhotoZigTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BA896ETMQ;
+				INFOPLIST_FILE = PhotoZigTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Leon-Berni.PhotoZigTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		356450EF1FD0835E005E2E27 /* Build configuration list for PBXProject "PhotoZigTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356451041FD0835E005E2E27 /* Debug */,
+				356451051FD0835E005E2E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		356451061FD0835E005E2E27 /* Build configuration list for PBXNativeTarget "PhotoZigTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356451071FD0835E005E2E27 /* Debug */,
+				356451081FD0835E005E2E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 356450EC1FD0835E005E2E27 /* Project object */;
+}
